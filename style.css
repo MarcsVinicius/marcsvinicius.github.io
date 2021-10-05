@@ -2,6 +2,7 @@ body {
     font-family: monospace, sans-serif;
     margin: 0px;
     background-color: #371840;
+    overflow-x: hidden;
 }
 div {
     border-bottom: #F2EB80 solid;
@@ -14,8 +15,6 @@ div {
     background-repeat: no-repeat;
     width: 202.9vh;
     height: 100vh;
-    position: absolute;
-
 }
 
 .main-session h1 {
@@ -50,22 +49,19 @@ div {
 
 .button-sobre {
     top: 300px;
-    left: 435px;
+    left: 420px;
 }
 
 .button-hobbies {
     top: 300px;
-    left: 600px;
+    left: 592px;
 }
 
 .button-projetos {
     top: 300px;
-    left: 745px;
+    left: 740px;
 }
 
-.spacement {
-    margin-top: 620px;
-}
 
 .section-sobre, .section-hobbies{
     padding: 40px;
