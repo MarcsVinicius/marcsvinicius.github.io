@@ -3,10 +3,6 @@ body {
     margin: 0px;
 }
 
-.imagemarcos {
-    margin-top: 1050px;
-}
-
 .main-session{
     background-image: url("/images/cidade-nova.jpg");
     background-color: black;
@@ -23,6 +19,7 @@ body {
 .main-session h1 {
     color: #F2EB80;
     position: absolute;
+    font-weight: 900;
     z-index: 5;
     top: 200px;
     left: 80vh;
@@ -63,4 +60,25 @@ body {
 .button-projetos {
     top: 300px;
     left: 745px;
+}
+
+.section-sobre {
+    margin-top: 640px;
+    background-color: #371840;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+.section-sobre h2 {
+    color: #F2EB80;
+    text-align: center;
+    font-weight: 300;
+}
+.imagemarcos {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: solid #F2EB80;
+    box-shadow: 5px 8px 9px #0D060C;
 }
