@@ -3,7 +3,10 @@ body {
     margin: 0px;
     background-color: #371840;
 }
-
+div {
+    border-bottom: #F2EB80 solid;
+    box-shadow: 5px 20px 40px #211426;
+}
 .main-session{
     background-image: url("/images/cidade-nova.jpg");
     background-color: black;
@@ -12,7 +15,6 @@ body {
     width: 202.9vh;
     height: 100vh;
     position: absolute;
-    border-bottom: #F2EB80 solid;
 
 }
 
@@ -22,12 +24,6 @@ body {
     font-weight: 900;
     top: 200px;
     left: 540px;
-}
-
-.linkedin-image {
-    left: 550px;
-    position: absolute;
-    z-index: 2;
 }
 
 .button {
@@ -67,20 +63,23 @@ body {
     left: 745px;
 }
 
-.section-sobre {
+.spacement {
     margin-top: 620px;
-    background-color: #371840;
+}
+
+.section-sobre, .section-hobbies{
     padding: 40px;
+    padding-bottom: 70px;
     text-align: center;
     color: white;
 }
 
-.section-sobre h2 {
+h2 {
     color: #F2EB80;
     text-align: center;
     font-weight: 300;
 }
-.imagemarcos {
+.roundedimage {
     width: 220px;
     height: 220px;
     border-radius: 50%;
@@ -88,8 +87,18 @@ body {
     box-shadow: 5px 8px 9px #0D060C;
 
 }
-.trybe-image {
-    left: 670px;
+
+.linkedin-image {
+    left: 550px;
     position: absolute;
-    z-index: 2;
+}
+
+.trybe-image {
+    left: 680px;
+    position: absolute;
+}
+
+.github-image {
+    left: 630px;
+    position: absolute;
 }
