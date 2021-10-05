@@ -35,7 +35,6 @@ div {
     background-color: black;
     text-decoration: none;
     color: white;
-    z-index: 3;
    }
    
 .button:hover {
@@ -45,7 +44,6 @@ div {
        background-color: #241021;
        text-decoration: none;
        color: white;
-       z-index: 3;
       }
 
 
