@@ -2,34 +2,65 @@ body {
     font-family: monospace, sans-serif;
     margin: 0px;
 }
-h1 {
-    color: #F2EB80;
-}
-
-.button {
- font-family: monospace, sans-serif;
- padding: 15px 30px;
- border-radius: 10px;
- background-color: black;
- text-decoration: none;
- color: white;
-}
-.button:hover {
-    font-family: monospace, sans-serif;
-    padding: 15px 30px;
-    border-radius: 10px;
-    background-color: #0D060C;
-    text-decoration: none;
-    color: white;
-   }
 
 .imagemarcos {
-    margin-top: 30px;
+    margin-top: 1050px;
 }
 
 .main-session{
+    background-image: url("/images/cidade-nova.jpg");
     background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 202.9vh;
+    height: 100vh;
+    z-index: 2;
+    position: absolute;
+    border-bottom: #F2EB80 solid;
+
 }
-.backgroundcar{
-    opacity: 0.5;
+
+.main-session h1 {
+    color: #F2EB80;
+    position: absolute;
+    z-index: 5;
+    top: 200px;
+    left: 80vh;
+}
+
+.button {
+    font-family: monospace, sans-serif;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    z-index: 3;
+   }
+   
+.button:hover {
+       font-family: monospace, sans-serif;
+       padding: 15px 30px;
+       border-radius: 10px;
+       background-color: #0D060C;
+       text-decoration: none;
+       color: white;
+       position: absolute;
+       z-index: 3;
+      }
+
+.button-sobre {
+    top: 300px;
+    left: 435px;
+}
+
+.button-hobbies {
+    top: 300px;
+    left: 600px;
+}
+
+.button-projetos {
+    top: 300px;
+    left: 745px;
 }
