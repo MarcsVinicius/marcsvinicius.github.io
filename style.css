@@ -1,6 +1,7 @@
 body {
     font-family: monospace, sans-serif;
     margin: 0px;
+    background-color: #371840;
 }
 
 .main-session{
@@ -10,7 +11,6 @@ body {
     background-repeat: no-repeat;
     width: 202.9vh;
     height: 100vh;
-    z-index: 2;
     position: absolute;
     border-bottom: #F2EB80 solid;
 
@@ -20,9 +20,14 @@ body {
     color: #F2EB80;
     position: absolute;
     font-weight: 900;
-    z-index: 5;
     top: 200px;
     left: 540px;
+}
+
+.linkedin-image {
+    left: 550px;
+    position: absolute;
+    z-index: 2;
 }
 
 .button {
@@ -63,9 +68,9 @@ body {
 }
 
 .section-sobre {
-    margin-top: 640px;
+    margin-top: 620px;
     background-color: #371840;
-    padding: 15px;
+    padding: 40px;
     text-align: center;
     color: white;
 }
@@ -81,4 +86,10 @@ body {
     border-radius: 50%;
     border: solid #F2EB80;
     box-shadow: 5px 8px 9px #0D060C;
+
+}
+.trybe-image {
+    left: 670px;
+    position: absolute;
+    z-index: 2;
 }
