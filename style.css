@@ -2,7 +2,7 @@ body {
     font-family: monospace, sans-serif;
     margin: 0px;
     background-color: #371840;
-    overflow-x: hidden;
+
 }
 div {
     border-bottom: #F2EB80 solid;
@@ -12,17 +12,20 @@ div {
     background-image: url("/images/cidade-nova.jpg");
     background-color: black;
     background-size: cover;
-    background-repeat: no-repeat;
-    width: 202.9vh;
-    height: 100vh;
+    padding: 600px 30px 40px;
 }
 
-.main-session h1 {
+.content-main h1 {
     color: #F2EB80;
-    position: absolute;
-    font-weight: 900;
-    top: 200px;
-    left: 540px;
+    font-weight: 900;;
+}
+
+.content-main {
+    border-bottom: hidden;
+    box-shadow: none;
+    text-align: center;
+    position: relative;
+    top: -320px;
 }
 
 .button {
@@ -32,7 +35,6 @@ div {
     background-color: black;
     text-decoration: none;
     color: white;
-    position: absolute;
     z-index: 3;
    }
    
@@ -40,32 +42,16 @@ div {
        font-family: monospace, sans-serif;
        padding: 15px 30px;
        border-radius: 10px;
-       background-color: #0D060C;
+       background-color: #241021;
        text-decoration: none;
        color: white;
-       position: absolute;
        z-index: 3;
       }
-
-.button-sobre {
-    top: 300px;
-    left: 420px;
-}
-
-.button-hobbies {
-    top: 300px;
-    left: 592px;
-}
-
-.button-projetos {
-    top: 300px;
-    left: 740px;
-}
 
 
 .section-sobre, .section-hobbies{
     padding: 40px;
-    padding-bottom: 70px;
+    padding-bottom: 5px;
     text-align: center;
     color: white;
 }
@@ -75,6 +61,17 @@ h2 {
     text-align: center;
     font-weight: 300;
 }
+.socialmedias {
+    border-bottom: hidden;
+    box-shadow: none;
+    margin: 50px
+}
+
+.hobbies-left {
+    border-bottom: hidden;
+    box-shadow: none;
+    display: inline-block;
+}
 .roundedimage {
     width: 220px;
     height: 220px;
@@ -82,19 +79,4 @@ h2 {
     border: solid #F2EB80;
     box-shadow: 5px 8px 9px #0D060C;
 
-}
-
-.linkedin-image {
-    left: 550px;
-    position: absolute;
-}
-
-.trybe-image {
-    left: 680px;
-    position: absolute;
-}
-
-.github-image {
-    left: 630px;
-    position: absolute;
 }

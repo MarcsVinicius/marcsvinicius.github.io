@@ -11,12 +11,14 @@
 
   <body>
     <div class="main-session">
-      <h1>Meu Portfólio</h1>
+      <div class="content-main">
+        <h1>Meu Portfólio</h1>
+        <a class="button" href="#section2">Sobre mim</a>
+        <a class="button" href="#section3">Hobbies</a>
+        <a class="button" href="">Meus Projetos</a>
+      </div>
     </div>
-    <a class="button button-sobre" href="#section2">Sobre mim</a>
-    <a class="button button-hobbies" href="#section3">Hobbies</a>
-    <a class="button button-projetos" href="">Meus Projetos</a><br>
-    <div class="section-sobre spacement">
+    <div class="section-sobre">
       <span id="section2"></span>
       <h2>Sobre mim</h2>
       <img
@@ -38,18 +40,53 @@
         JavaScript<br />
       </p>
       <ul></ul>
-      <a class="linkedin-image" href="https://www.linkedin.com/in/marcosvalencar/" target="_blank" ><img src="images/linkedin.png" alt="linkedin link" width="40px"></a>
-      <a class="github-image" href="https://github.com/MarcsVinicius/" target="_blank"><img src="images/github.png" alt="github imagem" width="45px"></a>
-      <a class="trybe-image" href="https://www.betrybe.com" target="_blank"><img src="images/trybe-logo.png" alt="trybe imagem" width="100px"></a>
+      <div class="socialmedias">
+      <a
+        class="linkedin-image"
+        href="https://www.linkedin.com/in/marcosvalencar/"
+        target="_blank"
+        ><img src="images/linkedin.png" alt="linkedin link" width="40px"
+      /></a>
+      <a
+        class="github-image"
+        href="https://github.com/MarcsVinicius/"
+        target="_blank"
+        ><img src="images/github.png" alt="github imagem" width="45px"
+      /></a>
+      <a class="trybe-image" href="https://www.betrybe.com" target="_blank"
+        ><img src="images/trybe-logo.png" alt="trybe imagem" width="45px"
+      /></a>
+    </div>
     </div>
     <div class="section-hobbies">
-   <span id="section3"></span>
+      <span id="section3"></span>
       <h2>Hobbies</h2>
-      <p>As coisas que eu mais gosto de fazer quando estou livre é jogar, <br>Meu genero favorito de jogo é o FPS. <br> Aí está uma lista de um dos meus jogos favoritos:</p>
-      <img class="roundedimage"src="/images/csgo.jpg" alt="Imagem CSGO">
-      <img class="roundedimage"src="/images/f1-thumb-2.jpg" alt="Imagem Formula 1">
-      <img class="roundedimage"src="/images/valorant.jpg" alt="Imagem Valorant">
+      <p>
+        As coisas que eu mais gosto de fazer quando estou livre é jogar,
+        <br />Meu genero favorito de jogo é o FPS. <br />
+        Aí está uma lista de um dos meus jogos favoritos:
+      </p>
+      <div class="hobbies-left">
+      <img class="roundedimage" src="/images/csgo.jpg" alt="Imagem CSGO" />
+      <p class="f1">CSGO</p>
+      </div>
+      <div class="hobbies-left">
+      <img
+        class="roundedimage"
+        src="/images/f1-thumb-2.jpg"
+        alt="Imagem Formula 1"
+      />
       <p class="f1">Formula 1</p>
+    </div>
+    <div class="hobbies-left">
+      <img
+        class="roundedimage"
+        src="/images/valorant.jpg"
+        alt="Imagem Valorant"
+      />
+      <p class="f1">Valorant</p>
+    </div>
+      </div>
     </div>
   </body>
 </html>
