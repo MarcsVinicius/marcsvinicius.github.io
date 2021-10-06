@@ -96,7 +96,10 @@ h2 {
     background-color: #5E2F73;
     border-radius: 15px;
     margin: 50px 30px;
+    margin-left: 80px;
+    min-width: 250px;
     box-shadow: 5px 5px 6px #000000;
+    vertical-align: middle;
     padding: 30px;
 }
 
@@ -104,5 +107,4 @@ h2 {
     width: 30px;
     vertical-align: middle;
     margin-bottom: 10px;
-    text-align: center;
 }
