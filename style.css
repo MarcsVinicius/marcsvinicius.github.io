@@ -168,6 +168,10 @@ a.project-breve {
     transition: 0.6s;
 }
 
+.projects-items p {
+    margin-bottom: 50px;
+}
+
 .project-img:hover {
     box-shadow: 5px 5px 5px black;
     transform: scale(1.6);
@@ -217,10 +221,6 @@ a.project-breve {
         vertical-align: top;
         min-height: 500px;
         margin: 0;
-    }
-
-    .projects-items p {
-        margin-bottom: 50px;
     }
 
     .project-img:hover {
